@@ -1,0 +1,55 @@
+2026-09-24 11:51:44.598 Uvicorn server started on 127.0.0.1:8501
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py:70: UserWarning: obj.round has no effect with datetime, timedelta, or period dtypes. Use obj.dt.round(...) instead.
+  return df.rename(columns=FIELD_LABELS).round(2)
+2026-09-24 12:01:20.098 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\sdana\OneDrive\Desktop\Shamsdataset\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "C:\Users\sdana\OneDrive\Desktop\Shamsdataset\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 909, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sdana\OneDrive\Desktop\Shamsdataset\app.py", line 201, in <module>
+    st.info(f"For {metric.lower()}: rising services are {', '.join(rising) or 'none'}; declining services are {', '.join(falling) or 'none'}. This describes the change in activity, not its cause.")
+                                                                   ^^^^^^
+NameError: name 'rising' is not defined
+2026-09-24 12:25:06.467 127.0.0.1:60272 - "GET / HTTP/1.1" 304
+2026-09-24 12:25:06.740 127.0.0.1:60272 - "GET /_stcore/health HTTP/1.1" 200
+2026-09-24 12:25:06.740 127.0.0.1:49294 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-09-24 12:25:06.876 127.0.0.1:61216 - "WebSocket /_stcore/stream" [accepted]
+2026-09-24 12:25:06.877 connection open
+2026-09-24 12:25:08.771 127.0.0.1:49294 - "GET /static/js/TextInput.DZMdozJH.js HTTP/1.1" 200
+2026-09-24 12:25:08.774 127.0.0.1:60272 - "GET /static/js/TextField.0J3PX-wt.js HTTP/1.1" 200
+2026-09-24 12:25:08.795 127.0.0.1:60311 - "GET /static/js/InputInstructions.D6M63hIK.js HTTP/1.1" 200
+2026-09-24 12:25:09.061 127.0.0.1:50573 - "GET /static/js/inputUtils.CD44xxT-.js HTTP/1.1" 200
+2026-09-24 12:25:09.091 127.0.0.1:61929 - "GET /static/js/useUpdateUiValue.BiKSuMNg.js HTTP/1.1" 200
+2026-09-24 12:25:09.323 127.0.0.1:61625 - "GET /static/js/Button.O77LRFsV.js HTTP/1.1" 200
+2026-09-24 12:25:11.876 127.0.0.1:61087 - "GET /media/b6f939f4d66ebf9073036b0075c39c50.csv HTTP/1.1" 200
+2026-09-24 12:28:36.479 127.0.0.1:64384 - "GET / HTTP/1.1" 304
+2026-09-24 12:28:36.553 127.0.0.1:64384 - "GET /_stcore/health HTTP/1.1" 200
+2026-09-24 12:28:36.561 127.0.0.1:58091 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-09-24 12:28:36.599 127.0.0.1:49321 - "WebSocket /_stcore/stream" [accepted]
+2026-09-24 12:28:36.602 connection open
+2026-09-24 12:28:39.514 127.0.0.1:58091 - "GET /media/b6f939f4d66ebf9073036b0075c39c50.csv HTTP/1.1" 200
+2026-09-24 12:31:14.410 127.0.0.1:62343 - "GET / HTTP/1.1" 304
+2026-09-24 12:31:14.517 127.0.0.1:62343 - "GET /_stcore/health HTTP/1.1" 200
+2026-09-24 12:31:14.518 127.0.0.1:53654 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-09-24 12:31:14.558 127.0.0.1:53804 - "WebSocket /_stcore/stream" [accepted]
+2026-09-24 12:31:14.559 connection open
+2026-09-24 12:31:17.947 127.0.0.1:53654 - "GET /media/b6f939f4d66ebf9073036b0075c39c50.csv HTTP/1.1" 200
+2026-09-24 12:32:04.761 127.0.0.1:54528 - "GET / HTTP/1.1" 304
+2026-09-24 12:32:04.811 127.0.0.1:54528 - "GET /_stcore/health HTTP/1.1" 200
+2026-09-24 12:32:04.812 127.0.0.1:56556 - "GET /_stcore/host-config HTTP/1.1" 200
+2026-09-24 12:32:04.836 127.0.0.1:56964 - "WebSocket /_stcore/stream" [accepted]
+2026-09-24 12:32:04.836 connection open
+2026-09-24 12:32:07.875 127.0.0.1:56556 - "GET /media/b6f939f4d66ebf9073036b0075c39c50.csv HTTP/1.1" 200

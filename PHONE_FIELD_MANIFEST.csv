@@ -1,0 +1,11 @@
+﻿Data area,File,Phone column,How phone is obtained
+Customer accounts,users.csv,phone,Direct field: users.phone
+General transactions,transactions_with_phone.csv,user_phone,Joined: transactions.user_id = users.id
+Data purchases,data_transactions.csv,phone_number,Direct field: data_transactions.phone_number
+Airtime purchases,airtime_transactions.csv,phone_number,Direct field: airtime_transactions.phone_number
+Wallet activity,wallet_transactions_with_phone.csv,user_phone,Joined: wallet_transactions.user_id = users.id
+Wallet balances,wallets_with_phone.csv,user_phone,Joined: wallets.user_id = users.id
+Available data plans,data_plans.csv,,No customer/phone field; product dimension
+Virtual funding accounts,funding_accounts_with_phone.csv,user_phone,Joined: funding_accounts.user_id = users.id
+Cable subscriptions,cable_subscription_transactions.csv,phone_number,Direct field
+Electricity bill purchases,electricity_bill_transactions.csv,phone_number,Direct field
