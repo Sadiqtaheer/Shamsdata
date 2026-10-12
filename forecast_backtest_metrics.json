@@ -1,0 +1,366 @@
+{
+  "transactions": {
+    "holdout_days": 30,
+    "selected_model": "gradient_boosting",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 15.100102134441514,
+      "weekly_baseline": 15.744444444444445
+    },
+    "mae": 9.50341068488999,
+    "gradient_boosting_mae": 9.50341068488999,
+    "weekly_baseline_mae": 9.2,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 9.073925484387955,
+          "weekly_baseline": 10.857142857142856
+        },
+        "mae": 13.168123563437648,
+        "gradient_boosting_mae": 13.168123563437648,
+        "weekly_baseline_mae": 13.714285714285714
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 15.100102134441514,
+          "weekly_baseline": 15.744444444444445
+        },
+        "mae": 9.50341068488999,
+        "gradient_boosting_mae": 9.50341068488999,
+        "weekly_baseline_mae": 9.2
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 27.997920670682124,
+          "weekly_baseline": 30.714814814814815
+        },
+        "mae": 16.070237614356788,
+        "gradient_boosting_mae": 16.070237614356788,
+        "weekly_baseline_mae": 16.555555555555557
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "data_transactions": {
+    "holdout_days": 30,
+    "selected_model": "weekly_baseline",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 20.183145630372156,
+      "weekly_baseline": 11.988888888888889
+    },
+    "mae": 7.066666666666666,
+    "gradient_boosting_mae": 9.468621290581149,
+    "weekly_baseline_mae": 7.066666666666666,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 7.767550963293199,
+          "weekly_baseline": 8.19047619047619
+        },
+        "mae": 10.695905308654284,
+        "gradient_boosting_mae": 10.695905308654284,
+        "weekly_baseline_mae": 9.0
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "weekly_baseline",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 20.183145630372156,
+          "weekly_baseline": 11.988888888888889
+        },
+        "mae": 7.066666666666666,
+        "gradient_boosting_mae": 9.468621290581149,
+        "weekly_baseline_mae": 7.066666666666666
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 16.02312370897285,
+          "weekly_baseline": 27.222222222222225
+        },
+        "mae": 15.134249073802756,
+        "gradient_boosting_mae": 15.134249073802756,
+        "weekly_baseline_mae": 12.011111111111111
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "successful_transactions": {
+    "holdout_days": 30,
+    "selected_model": "gradient_boosting",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 8.226574665216189,
+      "weekly_baseline": 9.466666666666667
+    },
+    "mae": 7.2143019895457074,
+    "gradient_boosting_mae": 7.2143019895457074,
+    "weekly_baseline_mae": 5.666666666666667,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 4.541841392561206,
+          "weekly_baseline": 5.285714285714286
+        },
+        "mae": 4.948188285396207,
+        "gradient_boosting_mae": 4.948188285396207,
+        "weekly_baseline_mae": 8.857142857142858
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 8.226574665216189,
+          "weekly_baseline": 9.466666666666667
+        },
+        "mae": 7.2143019895457074,
+        "gradient_boosting_mae": 7.2143019895457074,
+        "weekly_baseline_mae": 5.666666666666667
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 11.85023229958908,
+          "weekly_baseline": 12.474074074074073
+        },
+        "mae": 14.01228057003328,
+        "gradient_boosting_mae": 14.01228057003328,
+        "weekly_baseline_mae": 10.177777777777777
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "failed_transactions": {
+    "holdout_days": 30,
+    "selected_model": "gradient_boosting",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 9.258294376389808,
+      "weekly_baseline": 10.111111111111112
+    },
+    "mae": 8.603017592403653,
+    "gradient_boosting_mae": 8.603017592403653,
+    "weekly_baseline_mae": 5.866666666666666,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "weekly_baseline",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 7.887856469021696,
+          "weekly_baseline": 7.476190476190477
+        },
+        "mae": 5.428571428571429,
+        "gradient_boosting_mae": 3.386813338039279,
+        "weekly_baseline_mae": 5.428571428571429
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 9.258294376389808,
+          "weekly_baseline": 10.111111111111112
+        },
+        "mae": 8.603017592403653,
+        "gradient_boosting_mae": 8.603017592403653,
+        "weekly_baseline_mae": 5.866666666666666
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 16.85761701601704,
+          "weekly_baseline": 22.93703703703704
+        },
+        "mae": 8.279082066238374,
+        "gradient_boosting_mae": 8.279082066238374,
+        "weekly_baseline_mae": 8.833333333333334
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "transaction_value": {
+    "holdout_days": 30,
+    "selected_model": "weekly_baseline",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 14275.118705190658,
+      "weekly_baseline": 12567.848666666667
+    },
+    "mae": 10691.533333333333,
+    "gradient_boosting_mae": 8047.369453104667,
+    "weekly_baseline_mae": 10691.533333333333,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 7202.714288715892,
+          "weekly_baseline": 7701.571428571428
+        },
+        "mae": 9994.279326189106,
+        "gradient_boosting_mae": 9994.279326189106,
+        "weekly_baseline_mae": 4093.4285714285716
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "weekly_baseline",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 14275.118705190658,
+          "weekly_baseline": 12567.848666666667
+        },
+        "mae": 10691.533333333333,
+        "gradient_boosting_mae": 8047.369453104667,
+        "weekly_baseline_mae": 10691.533333333333
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 20925.76961035196,
+          "weekly_baseline": 22359.6852962963
+        },
+        "mae": 15188.44293836006,
+        "gradient_boosting_mae": 15188.44293836006,
+        "weekly_baseline_mae": 13164.533333333333
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "revenue": {
+    "holdout_days": 30,
+    "selected_model": "weekly_baseline",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 7675.382005640498,
+      "weekly_baseline": 6778.100222222222
+    },
+    "mae": 5764.133333333333,
+    "gradient_boosting_mae": 3967.000884915941,
+    "weekly_baseline_mae": 5764.133333333333,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "weekly_baseline",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 4904.37644769644,
+          "weekly_baseline": 4676.047619047619
+        },
+        "mae": 2709.285714285714,
+        "gradient_boosting_mae": 2481.219931325578,
+        "weekly_baseline_mae": 2709.285714285714
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "weekly_baseline",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 7675.382005640498,
+          "weekly_baseline": 6778.100222222222
+        },
+        "mae": 5764.133333333333,
+        "gradient_boosting_mae": 3967.000884915941,
+        "weekly_baseline_mae": 5764.133333333333
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 11350.820108194452,
+          "weekly_baseline": 12214.444555555556
+        },
+        "mae": 10498.16744425667,
+        "gradient_boosting_mae": 10498.16744425667,
+        "weekly_baseline_mae": 7520.566666666667
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  },
+  "active_users": {
+    "holdout_days": 30,
+    "selected_model": "gradient_boosting",
+    "selection_folds": 3,
+    "selection_candidate_mae": {
+      "gradient_boosting": 2.182129045564812,
+      "weekly_baseline": 2.477777777777778
+    },
+    "mae": 2.0568301287619564,
+    "gradient_boosting_mae": 2.0568301287619564,
+    "weekly_baseline_mae": 1.7666666666666666,
+    "horizons": {
+      "7": {
+        "holdout_days": 7,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 1.4603933379348153,
+          "weekly_baseline": 1.7142857142857142
+        },
+        "mae": 2.0928401013999705,
+        "gradient_boosting_mae": 2.0928401013999705,
+        "weekly_baseline_mae": 1.8571428571428572
+      },
+      "30": {
+        "holdout_days": 30,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 2.182129045564812,
+          "weekly_baseline": 2.477777777777778
+        },
+        "mae": 2.0568301287619564,
+        "gradient_boosting_mae": 2.0568301287619564,
+        "weekly_baseline_mae": 1.7666666666666666
+      },
+      "90": {
+        "holdout_days": 90,
+        "selected_model": "gradient_boosting",
+        "selection_folds": 3,
+        "selection_candidate_mae": {
+          "gradient_boosting": 2.7995201818367117,
+          "weekly_baseline": 3.1592592592592594
+        },
+        "mae": 2.1378907730293535,
+        "gradient_boosting_mae": 2.1378907730293535,
+        "weekly_baseline_mae": 3.0444444444444443
+      }
+    },
+    "excluded_final_date": "2026-09-23",
+    "evaluation_scope": "Before component reconciliation"
+  }
+}

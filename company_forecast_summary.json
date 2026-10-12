@@ -1,0 +1,26 @@
+{
+  "next_7_days": {
+    "transactions": 218.24481229907025,
+    "data_transactions": 82.0,
+    "transaction_value": 75994.0,
+    "revenue": 74029.0,
+    "avg_success_rate": 0.6816357141593038,
+    "avg_failure_rate": 0.18173909776002434
+  },
+  "next_30_days": {
+    "transactions": 819.2056314187845,
+    "data_transactions": 348.8468789124242,
+    "transaction_value": 321613.0,
+    "revenue": 313753.0,
+    "avg_success_rate": 0.6950061972379892,
+    "avg_failure_rate": 0.20463939400977568
+  },
+  "next_90_days": {
+    "transactions": 2500.4649690330566,
+    "data_transactions": 1041.2695110782354,
+    "transaction_value": 971631.0,
+    "revenue": 946786.0,
+    "avg_success_rate": 0.7029982258138129,
+    "avg_failure_rate": 0.16855384134638302
+  }
+}

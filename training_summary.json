@@ -1,0 +1,196 @@
+{
+  "transaction_success": {
+    "test_rows": 11108,
+    "selected_model": "extra_trees",
+    "validation_selection_metric": "roc_auc",
+    "validation_candidate_scores": {
+      "random_forest": 0.9672005415372122,
+      "extra_trees": 0.9676334394348023
+    },
+    "accuracy": 0.9061937342455888,
+    "majority_baseline_accuracy": 0.7776377385667987,
+    "roc_auc": 0.9635825319438729,
+    "classification_report": {
+      "0": {
+        "precision": 0.7664179104477612,
+        "recall": 0.8315789473684211,
+        "f1-score": 0.7976699029126214,
+        "support": 2470.0
+      },
+      "1": {
+        "precision": 0.950640721404841,
+        "recall": 0.9275295207223895,
+        "f1-score": 0.9389429274581038,
+        "support": 8638.0
+      },
+      "accuracy": 0.9061937342455888,
+      "macro avg": {
+        "precision": 0.8585293159263011,
+        "recall": 0.8795542340454052,
+        "f1-score": 0.8683064151853626,
+        "support": 11108.0
+      },
+      "weighted avg": {
+        "precision": 0.9096765205528438,
+        "recall": 0.9061937342455888,
+        "f1-score": 0.9075291382406622,
+        "support": 11108.0
+      }
+    },
+    "brier_score": 0.06633543036338956,
+    "log_loss": 0.21235530440204028,
+    "calibration_curve": [
+      {
+        "predicted_probability": 0.04978987311009874,
+        "observed_frequency": 0.0
+      },
+      {
+        "predicted_probability": 0.1594033624107598,
+        "observed_frequency": 0.09868421052631579
+      },
+      {
+        "predicted_probability": 0.24621115498891802,
+        "observed_frequency": 0.1875
+      },
+      {
+        "predicted_probability": 0.363985403473897,
+        "observed_frequency": 0.3067375886524823
+      },
+      {
+        "predicted_probability": 0.44913690411682716,
+        "observed_frequency": 0.42963885429638854
+      },
+      {
+        "predicted_probability": 0.5497256305123733,
+        "observed_frequency": 0.6507592190889371
+      },
+      {
+        "predicted_probability": 0.6556755678890801,
+        "observed_frequency": 0.7539118065433855
+      },
+      {
+        "predicted_probability": 0.7373295660807359,
+        "observed_frequency": 0.8288770053475936
+      },
+      {
+        "predicted_probability": 0.8385932983635911,
+        "observed_frequency": 0.87
+      },
+      {
+        "predicted_probability": 0.9760516798549189,
+        "observed_frequency": 0.9992636229749632
+      }
+    ]
+  },
+  "customers": {
+    "churn": {
+      "accuracy": 0.8038461538461539,
+      "roc_auc": 0.8671926364234057,
+      "churn_definition": "No transaction in the next 30 days",
+      "selected_model": "random_forest",
+      "validation_selection_metric": "roc_auc",
+      "validation_candidate_scores": {
+        "random_forest": 0.8748971193415638,
+        "extra_trees": 0.868477366255144
+      },
+      "brier_score": 0.13867512180189304,
+      "log_loss": 0.4297346298042801,
+      "calibration_curve": [
+        {
+          "predicted_probability": 0.037872904317904334,
+          "observed_frequency": 0.016666666666666666
+        },
+        {
+          "predicted_probability": 0.1418818434091161,
+          "observed_frequency": 0.18181818181818182
+        },
+        {
+          "predicted_probability": 0.25542952341775876,
+          "observed_frequency": 0.4117647058823529
+        },
+        {
+          "predicted_probability": 0.33847559940059946,
+          "observed_frequency": 0.4375
+        },
+        {
+          "predicted_probability": 0.45812306820163967,
+          "observed_frequency": 0.6428571428571429
+        },
+        {
+          "predicted_probability": 0.5448251822251822,
+          "observed_frequency": 0.5333333333333333
+        },
+        {
+          "predicted_probability": 0.6546524803882804,
+          "observed_frequency": 0.95
+        },
+        {
+          "predicted_probability": 0.7600256268313141,
+          "observed_frequency": 0.92
+        },
+        {
+          "predicted_probability": 0.8520737255173463,
+          "observed_frequency": 0.7659574468085106
+        },
+        {
+          "predicted_probability": 0.9326689814703375,
+          "observed_frequency": 0.8857142857142857
+        }
+      ],
+      "test_rows": 260,
+      "majority_baseline_accuracy": 0.55
+    },
+    "customer_value": {
+      "target": "next_30_day_successful_transaction_value",
+      "mae": 4722.815815474792,
+      "rmse": 9006.478424941095,
+      "r2": 0.5980766130754327,
+      "selected_model": "extra_trees",
+      "validation_selection_metric": "mae",
+      "validation_candidate_scores": {
+        "random_forest": 4918.817924297988,
+        "extra_trees": 4717.60369646155,
+        "hist_gradient_boosting": 6208.05757385453
+      }
+    }
+  },
+  "forecast": {
+    "next_7_days": {
+      "transactions": 218.24481229907025,
+      "data_transactions": 82.0,
+      "transaction_value": 75994.0,
+      "revenue": 74029.0,
+      "avg_success_rate": 0.6816357141593038,
+      "avg_failure_rate": 0.18173909776002434
+    },
+    "next_30_days": {
+      "transactions": 819.2056314187845,
+      "data_transactions": 348.8468789124242,
+      "transaction_value": 321613.0,
+      "revenue": 313753.0,
+      "avg_success_rate": 0.6950061972379892,
+      "avg_failure_rate": 0.20463939400977568
+    },
+    "next_90_days": {
+      "transactions": 2500.4649690330566,
+      "data_transactions": 1041.2695110782354,
+      "transaction_value": 971631.0,
+      "revenue": 946786.0,
+      "avg_success_rate": 0.7029982258138129,
+      "avg_failure_rate": 0.16855384134638302
+    }
+  },
+  "product_trends_rows": 15,
+  "data_plan_performance": {
+    "plans_scored": 147,
+    "plans_with_reliable_sample": 85,
+    "minimum_transactions_for_ranking": 30,
+    "ranking_basis": "Observed success rate, then estimated margin per cost-matched transaction, then transaction count."
+  },
+  "profit": {
+    "scope": "Data transactions only",
+    "assumption": "data_plans.api_amount is treated as supplier/API cost",
+    "estimated_total_gross_margin": -3768839.0,
+    "successful_data_revenue_with_cost_match": 12068514.0
+  }
+}

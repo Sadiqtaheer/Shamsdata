@@ -1,0 +1,16 @@
+service,metric,previous_30d,recent_30d,growth_rate,trend
+airtime,transactions,55.0,47.0,-0.14545454545454545,falling
+airtime,revenue,7996.0,6195.0,-0.2252376188094047,falling
+airtime,users,40.0,37.0,-0.075,stable
+cable,transactions,0.0,0.0,0.0,stable
+cable,revenue,0.0,0.0,0.0,stable
+cable,users,0.0,0.0,0.0,stable
+data,transactions,599.0,496.0,-0.17195325542570952,falling
+data,revenue,200922.0,161398.0,-0.19671315236758544,falling
+data,users,277.0,241.0,-0.1299638989169675,falling
+electricity,transactions,0.0,0.0,0.0,stable
+electricity,revenue,0.0,0.0,0.0,stable
+electricity,users,0.0,0.0,0.0,stable
+wallet,transactions,280.0,261.0,-0.06785714285714285,stable
+wallet,revenue,203655.0,171418.0,-0.1582922098647222,falling
+wallet,users,210.0,191.0,-0.09047619047619047,stable

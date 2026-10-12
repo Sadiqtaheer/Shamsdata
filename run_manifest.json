@@ -1,0 +1,27 @@
+{
+  "trained_at_utc": "2026-10-12T10:21:00.928738+00:00",
+  "transaction_rows": 56036,
+  "data_start": "2025-01-24 22:33:54",
+  "data_end": "2026-09-23 10:33:15",
+  "python": "3.12.14",
+  "scikit_learn": "1.9.1",
+  "pandas": "3.0.1",
+  "source_sha256": {
+    "transactions.csv": "4014c4dd1efc15792eb99fd5baa768889b3cae747456fac5ad9d68c48fac94c9",
+    "users.csv": "c9414a8ee433164ebc426d3fe177ccdb1b2808de844e698c996ca939b8a27ea1",
+    "wallets.csv": "850e52d48de88b992a7920eb545dae783821e0c4da9c2276ce63e942f18c0788",
+    "wallet_transactions.csv": "533d50b5131f8483bbd5d5818907f77c3225d98419827c6966642848c5120d69",
+    "funding_accounts.csv": "898b6088a1e2c2db7c8d91303df8cef7ce5847c891f6663a5d2b21a02b75c5dc",
+    "data_transactions.csv": "d6276a27ecb5d099c842fc5753a5dfebbe7e81e32556d06e9ebfaff920218e98",
+    "data_plans.csv": "fa9e8b54d730cc76fcbc669767de1eb7a48785346ec5351f511bb0e83967e098",
+    "airtime_transactions.csv": "83de2653430b3c48af5cfe5e152dd6660b730821c23957c33282e9cba55da79d",
+    "cable_subscription_transactions.csv": "439dc68fd29453283f82a19f5bf585ceb6fee0a2150955cf075a730530a6395e",
+    "electricity_bill_transactions.csv": "be376518f9ccb376114487e913408c53276af4d10b5d177c379c5e39bb9fb476"
+  },
+  "evaluation": "Chronological classifier/customer holdouts; customer label windows end before the next partition. Forecast candidates selected on earlier rolling origins and evaluated on separate final 7/30/90-day holdouts. Delivery forecasts use the 30-day selection. Classifiers/regressor refit on all available labelled rows.",
+  "limitations": [
+    "Historical plan attributes come from the current catalog.",
+    "Forecasts begin after the last complete recorded day; the final export day is excluded.",
+    "Revenue field means successful transaction value, not company earnings."
+  ]
+}

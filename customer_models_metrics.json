@@ -1,0 +1,72 @@
+{
+  "churn": {
+    "accuracy": 0.8038461538461539,
+    "roc_auc": 0.8671926364234057,
+    "churn_definition": "No transaction in the next 30 days",
+    "selected_model": "random_forest",
+    "validation_selection_metric": "roc_auc",
+    "validation_candidate_scores": {
+      "random_forest": 0.8748971193415638,
+      "extra_trees": 0.868477366255144
+    },
+    "brier_score": 0.13867512180189304,
+    "log_loss": 0.4297346298042801,
+    "calibration_curve": [
+      {
+        "predicted_probability": 0.037872904317904334,
+        "observed_frequency": 0.016666666666666666
+      },
+      {
+        "predicted_probability": 0.1418818434091161,
+        "observed_frequency": 0.18181818181818182
+      },
+      {
+        "predicted_probability": 0.25542952341775876,
+        "observed_frequency": 0.4117647058823529
+      },
+      {
+        "predicted_probability": 0.33847559940059946,
+        "observed_frequency": 0.4375
+      },
+      {
+        "predicted_probability": 0.45812306820163967,
+        "observed_frequency": 0.6428571428571429
+      },
+      {
+        "predicted_probability": 0.5448251822251822,
+        "observed_frequency": 0.5333333333333333
+      },
+      {
+        "predicted_probability": 0.6546524803882804,
+        "observed_frequency": 0.95
+      },
+      {
+        "predicted_probability": 0.7600256268313141,
+        "observed_frequency": 0.92
+      },
+      {
+        "predicted_probability": 0.8520737255173463,
+        "observed_frequency": 0.7659574468085106
+      },
+      {
+        "predicted_probability": 0.9326689814703375,
+        "observed_frequency": 0.8857142857142857
+      }
+    ],
+    "test_rows": 260,
+    "majority_baseline_accuracy": 0.55
+  },
+  "customer_value": {
+    "target": "next_30_day_successful_transaction_value",
+    "mae": 4722.815815474792,
+    "rmse": 9006.478424941095,
+    "r2": 0.5980766130754327,
+    "selected_model": "extra_trees",
+    "validation_selection_metric": "mae",
+    "validation_candidate_scores": {
+      "random_forest": 4918.817924297988,
+      "extra_trees": 4717.60369646155,
+      "hist_gradient_boosting": 6208.05757385453
+    }
+  }
+}
